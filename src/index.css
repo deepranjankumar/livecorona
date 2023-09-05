@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.heading {
+  text-align: center;
+  font-size: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.head {
+  margin-top: 0; /* Remove top margin */
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+/* Updated CSS for the table */
+.table {
+  width: 90%; /* Adjust the width as needed */
+  border-collapse: separate; /* Use border-spacing */
+  border-spacing: 0 10px; /* Add space between rows */
+  text-align: center; /* Center the text within the cells */
+  background-color: rgb(249, 249, 249);
+}
+
+.head th {
+  padding: 10px; /* Add padding for better spacing */
+}
+.container{
+  display: flex;
+  justify-content:center;
+  background-attachment:rgb(26, 82, 26); 
+}
+.hover:hover{
+  background-color:rgb(135, 135, 135);
+}
+.hover{
+  height:35px;
+}
+.hovers:hover{
+  background-color: rgb(146, 225, 227);
 }
